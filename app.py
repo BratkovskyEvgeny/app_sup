@@ -13,7 +13,18 @@ st.balloons()
 st.write("От всех обучающихся секретам Apache Superset выражаю благодарность за этот курс !!! ")
     
 st_player("https://www.youtube.com/watch?v=MdnE-7IpaD8")
-    
+st.markdown(
+    """
+    <style>
+    .css-1jc7ptx, .e1ewe7hr3, .viewerBadge_container__1QSob,
+    .styles_viewerBadge__1yB5_, .viewerBadge_link__1S137,
+    .viewerBadge_text__1JaDK {
+        display: none;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)  
 
     
 if st.button("Что дальше?"):
