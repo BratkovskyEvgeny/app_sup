@@ -7,7 +7,7 @@ from streamlit_player import st_player
 
 
     
-    st.image('1.JPEG',width=710)
+    st.image('1.JPG',width=710)
     st.markdown("<h1 style='text-align: center; '>Благодарность</h1>", unsafe_allow_html = True)
     st.balloons()
     st.write("От всех обучающихся секретам Apache Superset выражаю благодарность за этот курс !!! ")
